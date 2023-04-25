@@ -1,0 +1,145 @@
+/* for universal  */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(./rescourse/images/abs-1850926_1280.jpg);
+}
+
+/* nav */
+.nav_items ul {
+    list-style: none;
+}
+
+.nav_items ul a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.nav_items ul a:hover {
+    color: rgb(221, 214, 214);
+}
+
+.nav_iteam {
+    display: inline-block;
+    /* margin-top:20px; */
+
+}
+
+.nav_items {
+    margin:40px 0px;
+    /* border:2px solid transparent; */
+
+}
+
+/* nav elements */
+.nav_elements {
+    position: relative;
+    left: 30%;
+    margin: auto;
+    padding: 0px 15px;
+
+}
+
+.nav_elements:hover {
+    border-bottom: 2px solid white;
+
+}
+
+
+
+/* for cta button */
+.cta_button {
+
+    position: absolute;
+    border: 2px solid white;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.cta_button:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.call_us {
+    right: 130px;
+}
+
+.email_us {
+    right: 30px;
+}
+
+/* gym logo */
+.gym_logo {
+    position: absolute;
+    color: white;
+    top:32px;
+    left: 23px;
+
+}
+
+/* gym logo name */
+.logo_name {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0px;
+}
+
+/* form Section  */
+.form {
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    padding: 20px;
+    top: 114px;
+    left: 60px;
+    width: 450px;
+    height: 300px;
+}
+
+.form_section::placeholder {
+    text-align: center;
+    font-weight: bold;
+}
+
+.form_section {
+    top: 45px;
+    position: relative;
+    width: 280px;
+    display: block;
+    padding: 7px 30px;
+    border-radius: 10px;
+    /* margin:10px 0px; */
+    margin: auto;
+    margin-bottom: 5px;
+
+}
+.form_section:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+
+/* for intro */
+.intro {
+    position: relative;
+    top:45px;
+    left:85px;
+    font-size: 25px;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Ysabeau', sans-serif;
+    color: white;
+}
+
+/* submit button */
+.sumbit_button{
+    background-color: gray;
+    color:white;
+    padding: 5px 170px;
+}
